@@ -1,8 +1,16 @@
-import Nav from "./Nav";
+import ParticleBackground from "./ParticleBackground";
+import Body from "./Components/body/Body";
+import Nav from "./Components/Navbar/Nav";
+
+
+
 function App() {
   return (
     <div>
+      <ParticleBackground/>
       <Nav/>
+      <Body/>
+      
     </div>
   );
 }
